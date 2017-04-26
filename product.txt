@@ -1,0 +1,11 @@
+1001;Bike;white;1;30
+1002;Bike;white;3;50
+1003;Bike;white;6;70
+2001;Electric Bike;white;30;100
+2002;Electric Bike;white;40;120
+2003;Electric Bike;white;50;150
+
+
+
+
+
