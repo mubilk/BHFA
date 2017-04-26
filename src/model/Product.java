@@ -12,10 +12,10 @@
 		public Product(int productId, String productName,double price){
 			this.productName = productName;
 			this.price = price;
+			this.productId = productId; 
 			id++;
 			productId = id;
-			}
-		
+		}
 		
 		public int getProductId() {
 			return productId;

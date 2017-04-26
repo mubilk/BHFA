@@ -2,7 +2,7 @@
 	package model;
 
 	import model.Product;
-	import data.ReadandWrite;
+import data.ReadandWrite;
 
 		public class ElectricBike extends Product{ 
 			private String colour;
@@ -42,9 +42,9 @@
 
 		@Override
 		public String toString() {
-			return "Bike [colour=" + colour + ", hp=" + hp + ", id=" +getProductId() 
+			return getProductName()+ " [colour=" + colour + ", hp=" + hp + ", id=" +getProductId() 
 			+ ", price=" + getPrice() + ", stock=" + "]";
-		}			
+		}								
 		
 		public void writetoFile() {
 			String details = getProductId() + ";" + getProductName() + ";" + colour + ";" + hp + ";" + getPrice() +";";

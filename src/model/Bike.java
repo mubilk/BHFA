@@ -44,9 +44,10 @@ import data.ReadandWrite;
 
 		@Override
 		public String toString() {
-			return "Bike [colour=" + colour + ", gear=" + gear + ", id=" +getProductId() 
-			+ ", price=" + getPrice() +"]";
+			return getProductName() + " [colour=" + colour + ", gear=" + gear + ", id=" + getProductId()
+			+ ", price=" + getPrice() + ", stock=" +"]";
 		}
+
 
 		
 		public void writetoFile() {
