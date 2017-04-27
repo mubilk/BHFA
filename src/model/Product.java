@@ -25,11 +25,12 @@
 		public void setProductId(int productId) {
 			this.productId = productId;
 			}
-*/
-		
+
+		*/
 		public Product(){
 			id++;
 			}
+		
 
 		public String getProductName() {
 			return productName;

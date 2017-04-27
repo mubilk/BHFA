@@ -21,6 +21,7 @@ public class ProductView {
 		}
 		
 		cv.selectingBikes();
+		cv.printBasket();
 		
 		
 		
