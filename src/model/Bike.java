@@ -44,14 +44,14 @@ import data.ReadandWrite;
 
 		@Override
 		public String toString() {
-			return getProductName() + " [colour=" + colour + ", gear=" + gear + ", id=" + getProductId()
+			return getProductName() + " [colour=" + colour + ", gear=" + gear + ", id=" + getId()
 			+ ", price=" + getPrice() + ", stock=" +"]";
 		}
 
 
 		
 		public void writetoFile() {
-			String details = getProductId() + ";" + getProductName() + ";" + colour + ";" + gear + ";" + getPrice() +";";
+			String details = getId() + ";" + getProductName() + ";" + colour + ";" + gear + ";" + getPrice() +";";
 			ReadandWrite.WriteDetails("product.txt", details);
 			
 		}			

@@ -4,20 +4,20 @@
 	public class Product {
 
 		private String productName;
-		private static int id;
-		private int productId;
+		private int id;
+	//	private int productId;
 		private double price;
 
 		
 		public Product(int productId, String productName,double price){
 			this.productName = productName;
 			this.price = price;
-			this.productId = productId; 
-			id++;
-			productId = id;
+			this.id = id; 
+			//id++;
+			//productId = id;
 		}
 		
-		public int getProductId() {
+	/*	public int getProductId() {
 			return productId;
 			}
 
@@ -25,12 +25,11 @@
 		public void setProductId(int productId) {
 			this.productId = productId;
 			}
-
+*/
 		
 		public Product(){
 			id++;
 			}
-		
 
 		public String getProductName() {
 			return productName;
@@ -60,11 +59,13 @@
 			this.price = price;
 			}
 		
-	@Override 	
+/*	@Override 	
 		public String toString()
 		{
 		return "Product [ ID: " + productId + ", Product Name: " + productName + " ]"; 
 		// TODO: Add more variables here
-		}
-		
+		}*/
+		public String toString(){
+			return ("Name " + this.getProductName() + " ID " + this.getId() + " DKK " + this.getPrice());
+		}		
 	}

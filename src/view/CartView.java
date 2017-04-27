@@ -69,14 +69,14 @@ public class CartView {
 			System.out.println("=====================================\n");
 			for(int i=0; i < basket.size(); i++) { 
 
-				if (this.basket.get(i).getProductId() > 100 && this.basket.get(i).getProductId()<200) 
+				if (this.basket.get(i).getId() > 100 && this.basket.get(i).getId()<200) 
 					System.out.print("Ebikes in your shopping basket\n");
-				else if (this.basket.get(i).getProductId() > 200 &&  this.basket.get(i).getProductId()<300)
+				else if (this.basket.get(i).getId() > 200 &&  this.basket.get(i).getId()<300)
 					System.out.print("Normal bikes in your shopping basket \n");
 				else
 					System.out.print("Bike offers in your shopping basket \n");
 
-				System.out.println("\t ID: " + this.basket.get(i).getProductId() +"\t Quantity:  " +
+				System.out.println("\t ID: " + this.basket.get(i).getId() +"\t Quantity:  " +
 						this.basket.get(i).getQuantity() + "\n");
 //				System.out.println("=====================================");
 //				System.out.println("The total sum of your orders is " this.basket.get(i).getPrice()*this.basket.get(i).getQuantity()  );

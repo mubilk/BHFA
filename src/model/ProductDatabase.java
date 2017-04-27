@@ -23,8 +23,8 @@ import data.ReadandWrite;
 		
 	public boolean isProduct(int product) {
 		
-		for(int i=0; i < this.bike.size(); i++) { 	
-			if (product == this.bike.get(i).getId())
+		for(int i=0; i < this.database.size(); i++) { 	
+			if (product == this.database.get(i).getId())
 				return true;
 		}
 		return false;

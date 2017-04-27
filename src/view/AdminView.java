@@ -68,7 +68,7 @@ public class AdminView {
     			if (details.matches("[0-9]+")) { 
         		int productId = Integer.parseInt(details);
 
-    			b.setProductId(productId);  
+    			b.setId(productId);  
     			correct = true;
     				}
     			}
@@ -143,7 +143,7 @@ public class AdminView {
 			if (details.matches("[0-9]+")) { 
     		int productId = Integer.parseInt(details);
 
-			eb.setProductId(productId);  
+			eb.setId(productId);  
 			correct = true;
 				}
 			}

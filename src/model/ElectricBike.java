@@ -42,12 +42,12 @@ import data.ReadandWrite;
 
 		@Override
 		public String toString() {
-			return getProductName()+ " [colour=" + colour + ", hp=" + hp + ", id=" +getProductId() 
+			return getProductName()+ " [colour=" + colour + ", hp=" + hp + ", id=" +getId() 
 			+ ", price=" + getPrice() + ", stock=" + "]";
 		}								
 		
 		public void writetoFile() {
-			String details = getProductId() + ";" + getProductName() + ";" + colour + ";" + hp + ";" + getPrice() +";";
+			String details = getId() + ";" + getProductName() + ";" + colour + ";" + hp + ";" + getPrice() +";";
 			ReadandWrite.WriteDetails("product.txt", details);
 				
 		}
