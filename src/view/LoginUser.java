@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class LoginUser {
 
 	public LoginUser() {
-
+// TODO: Put this class in LoginView
 	} // LoginUser
 
 	public int loginCostumerChoice() {
