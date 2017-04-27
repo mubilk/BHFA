@@ -11,7 +11,7 @@ public class ProductView {
 	public void showProductList() {
 		ProductDatabase Pd = new ProductDatabase();
 		CartView cv = new CartView();
-		
+		PaymentView pv = new PaymentView();
 		ArrayList <Product> AllProducts = Pd.getProductList();
 		
 		for (Product product1 : AllProducts) 
@@ -22,7 +22,7 @@ public class ProductView {
 		
 		cv.selectingBikes();
 		cv.printBasket();
-		
+		pv.getCreditCardDetails();
 		
 		
 	}

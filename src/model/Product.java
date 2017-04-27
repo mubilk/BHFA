@@ -9,7 +9,7 @@
 		private double price;
 
 		
-		public Product(int productId, String productName,double price){
+		public Product(int id, String productName,double price){
 			this.productName = productName;
 			this.price = price;
 			this.id = id; 
