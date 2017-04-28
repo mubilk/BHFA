@@ -2,14 +2,15 @@
 	package view;
 
 	import java.util.ArrayList;
-	import java.util.Scanner;
+import java.util.Scanner;
 
+import control.Logedinuservar;
 import control.LoginUsercontrol;
 import model.Customer;
-	import data.ReadandWrite;
-
+import data.ReadandWrite;
+	import control.Logedinuservar;
 	public class LoginView {
-			
+		public String logedinuser;		
 		private ArrayList<Customer>customerDetails;
 			
 			
@@ -41,6 +42,7 @@ import model.Customer;
 			
 			
 			do{
+				
 				counterTries++;
 				
 				System.out.println("Type in your username: "); 
@@ -62,10 +64,13 @@ import model.Customer;
 						
 						LC.loginUserController();
 						loggedIn = true;
-						
+						// Logedinuservar.logedinusername = customerDetails.get(i).getUsername() ;
 						
 						
 					}
+					int p =i; // use p in order not to tickel with counter in for loop 
+					p++;
+					Logedinuservar.setLogedinusername(p);	
 				}
 				
 				if(!loggedIn){
@@ -76,4 +81,5 @@ import model.Customer;
 			
 			return loggedIn;	
 		}
+		
 		}

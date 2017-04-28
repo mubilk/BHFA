@@ -12,7 +12,7 @@
 
 	private Scanner input;
 
-
+	Customer RC = new Customer();
 	public CustomerView(){
 			
 		}
@@ -21,7 +21,7 @@
 	public  Customer getCustomerDetails(){
 			input = new Scanner(System.in);
 			String details;
-			Customer RC = new Customer();
+			
 			LoginView LV = new LoginView();
 
 			
@@ -79,8 +79,10 @@
 			System.out.println(" You have now succesfully created a account in CPH Java Bike Sharing"); 
 			System.out.println(" Your Username and Password is displayed below: ");
 			System.out.println("Username: " + RC.getUsername() + "and you password" + RC.getPassword());
+		//	printCustomerDetails(RC);
 			LV.Reload();
 			LV.login();
+			
 			return RC;
 				
 			}

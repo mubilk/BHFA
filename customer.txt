@@ -2,3 +2,8 @@ Ghulam;Farhan;FarGhu;Ghu121;12121212;Farhanghulam88@gmail.com;
 ElAbassi;Ahmad;AhmElA;ElA345;12345678;ahmad@hotmail.com;
 jensen;bilal;biljen;jen989;98989898;bilal@jensen.dk;
 testtest;test;testes;tes666;66666666;test@test.dk;
+friborg;helle;helfri;fri345;12345678;helle.helle@mail.dk;
+helfri;helfri;helhel;hel345;12345678;helfri.helfri@helfri.dk;
+claus;claus;clacla;cla345;12345678;claus.claus@claus.dk;
+petersen;linda;linpet;pet121;12121212;linda.petersen@mail.dk;
+thomsen;claus;clatho;tho345;12345678;ct@t.com;
